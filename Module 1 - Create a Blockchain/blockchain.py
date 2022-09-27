@@ -1,10 +1,7 @@
-from crypt import methods
 import datetime
 import hashlib
-from http.client import BAD_REQUEST, OK
+from http.client import OK
 import json
-from pickle import FALSE
-from urllib import response
 from flask import Flask, jsonify
 
 # Part 1: Building a Blockchain
